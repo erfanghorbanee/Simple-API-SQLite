@@ -49,6 +49,12 @@ DEBUG=True
 
 to learn more, you can check this [article](https://dontrepeatyourself.org/post/how-to-use-python-decouple-with-django/).
 
+####  Run makemigrations and migrate :
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
 #### Run the tests :
 ```bash
 python manage.py test
